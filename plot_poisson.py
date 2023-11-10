@@ -3,7 +3,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import factorial
-from scipy.stats import poisson
 
 count = np.arange(70, 130, 0.1)
 PDF = np.exp(-100) * np.power(100, count) / factorial(count)
